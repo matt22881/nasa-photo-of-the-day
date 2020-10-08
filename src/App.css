@@ -7,21 +7,29 @@
   pointer-events: none;
 }
 
+.image-container img {
+  width: 90%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headline {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
   color: white;
+  margin: 3% 0;
 }
 
 .App-link {
